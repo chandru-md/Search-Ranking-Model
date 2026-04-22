@@ -19,3 +19,11 @@ Using Istella LETOR dataset.
 
 - Verified data loading pipeline using test script
 - Confirmed feature extraction and query grouping
+
+- Fixed module import issues using proper project root execution
+- Switched to relative file paths for portability
+
+## 🏗️ Project Structure
+
+- Organized modules into separate directories
+- Fixed import issues by aligning with standard Python package structure
