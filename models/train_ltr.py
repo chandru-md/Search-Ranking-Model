@@ -1,9 +1,13 @@
 import lightgbm as lgb
+import numpy as np
 from data.load_istella import load_istella
 from data.grouping import get_group
 
 # Load data (use small subset first)
 X_train, y_train, qid_train = load_istella("data/raw/train.txt", limit=20000)
+X_train = np.array(X_train)
+y_train = np.array(y_train)
+
 group_train = get_group(qid_train)
 
 # Create dataset
