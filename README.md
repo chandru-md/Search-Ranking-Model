@@ -42,3 +42,9 @@ Using Istella LETOR dataset.
 - Implemented NDCG@10 for ranking quality measurement
 - Evaluates model performance per query group
 - Provides average ranking effectiveness
+
+## 🔎 Inference Pipeline
+
+- Built ranking pipeline using trained LightGBM model
+- Supports query-level ranking
+- Returns top-K ranked results
