@@ -48,3 +48,15 @@ Using Istella LETOR dataset.
 - Built ranking pipeline using trained LightGBM model
 - Supports query-level ranking
 - Returns top-K ranked results
+
+## 🔍 Retrieval System
+
+- Implemented hybrid retrieval:
+  - BM25 (keyword-based)
+  - Semantic search (embeddings)
+- Combines both methods for better candidate selection
+
+## ⚙️ Dependencies
+
+- rank-bm25 (for keyword-based retrieval)
+- sentence-transformers (for semantic search)

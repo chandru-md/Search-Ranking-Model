@@ -3,3 +3,7 @@ numpy
 matplotlib
 seaborn
 ipykernel
+lightgbm
+rank-bm25
+sentence-transformers
+scikit-learn
