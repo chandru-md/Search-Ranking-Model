@@ -34,3 +34,11 @@ Using Istella LETOR dataset.
 - Objective: LambdaRank
 - Metric: NDCG@10
 - Supports query-grouped training
+
+- Converted dataset to NumPy arrays for compatibility with LightGBM training
+
+## 📊 Evaluation
+
+- Implemented NDCG@10 for ranking quality measurement
+- Evaluates model performance per query group
+- Provides average ranking effectiveness
