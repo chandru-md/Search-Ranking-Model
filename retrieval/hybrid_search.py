@@ -7,7 +7,7 @@ def hybrid_search(query):
 
     combined = bm25_results + semantic_results
 
-    # simple merge
+    # remove duplicates
     unique = list({doc: score for doc, score in combined}.items())
 
     ranked = sorted(unique, key=lambda x: x[1], reverse=True)
@@ -15,7 +15,7 @@ def hybrid_search(query):
     return ranked[:5]
 
 
-# test
-results = hybrid_search("learn AI")
-for r in results:
-    print(r)
+if __name__ == "__main__":
+    results = hybrid_search("machine learning")
+    for r in results:
+        print(r)
