@@ -27,3 +27,10 @@ Using Istella LETOR dataset.
 
 - Organized modules into separate directories
 - Fixed import issues by aligning with standard Python package structure
+
+## 🤖 Ranking Model
+
+- Implemented Learning-to-Rank using LightGBM
+- Objective: LambdaRank
+- Metric: NDCG@10
+- Supports query-grouped training
