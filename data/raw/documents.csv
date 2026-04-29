@@ -1,0 +1,101 @@
+id,title,description
+1,Data Science Course,Learn machine learning and AI
+2,Python Basics,Learn python programming
+3,Deep Learning Guide,Neural networks and DL concepts
+4,Statistics for Data Science,"Probability, distributions, and hypothesis testing"
+5,Ethical Hacking Bootcamp,Penetration testing and network security
+6,CCNP Enterprise Training,Advanced routing and switching architectures
+7,Mastering n8n Automation,Building low-code workflow automations
+8,NLP with Transformers,Text processing and language modeling
+9,Computer Vision Fundamentals,Image recognition and object detection
+10,SQL for Data Analysis,Querying databases and data manipulation
+11,Power BI Dashboards,Visualizing data for business intelligence
+12,AWS Cloud Practitioner,Introduction to cloud computing and services
+13,Docker & Kubernetes,Containerization and orchestration
+14,Scikit-learn Mastery,Implementing machine learning algorithms
+15,Pandas for Data Wrangling,Cleaning and transforming large datasets
+16,JavaScript Essentials,Frontend development and logic
+17,Cybersecurity Fundamentals,Protecting systems from digital attacks
+18,Tableau for Beginners,Creating interactive data visualizations
+19,R Programming for Stats,Statistical computing and graphics
+20,Linux System Administration,Managing servers and command line
+21,Big Data with Spark,Distributed data processing at scale
+22,React.js Development,Building modern web interfaces
+23,Django Web Framework,Rapid backend development with Python
+24,Flask API Development,Lightweight web services for ML models
+25,Git and GitHub Version Control,Managing code repositories and collaboration
+26,Data Engineering Foundations,ETL pipelines and data warehousing
+27,Reinforcement Learning,Training agents via rewards and penalties
+28,Linear Algebra for ML,"Vectors, matrices, and eigenvectors"
+29,Excel for Analysts,Advanced formulas and pivot tables
+30,Java Programming Masterclass,Object-oriented programming in Java
+31,C++ for Systems,Low-level programming and memory management
+32,Mobile App Dev with Flutter,Cross-platform apps for iOS and Android
+33,UI/UX Design Principles,Creating user-centered digital products
+34,Agile & Scrum Basics,Project management for software teams
+35,Unit Testing in Python,Writing robust code with PyTest
+36,MongoDB NoSQL,Working with document-based databases
+37,Google Cloud Architect,Designing scalable cloud solutions
+38,DevSecOps Pipeline,Integrating security into DevOps
+39,Time Series Analysis,Forecasting and trend detection
+40,Discrete Mathematics,Logic and set theory for CS
+41,Artificial General Intelligence,Exploring the future of AI
+42,PyTorch for Researchers,Deep learning with dynamic graphs
+43,TensorFlow in Production,Scaling ML models for users
+44,Prompt Engineering,Optimizing inputs for LLMs
+45,Generative AI Art,Creating images with Midjourney and DALL-E
+46,Blockchain Essentials,Understanding smart contracts and Web3
+47,Go Programming (Golang),High-performance concurrent systems
+48,Ruby on Rails,Convention over configuration web dev
+49,TypeScript Mastery,Adding static types to JavaScript
+50,Rust for Safety,Modern systems programming without bugs
+51,Exploratory Data Analysis,Finding patterns through visualization
+52,Feature Engineering,Creating better inputs for ML models
+53,Hyperparameter Tuning,Optimizing model performance
+54,K-Means Clustering,Unsupervised learning techniques
+55,Random Forest Classifiers,Ensemble learning for structured data
+56,Gradient Boosting (XGBoost),High-performance predictive modeling
+57,Recommendation Systems,Collaborative filtering and content-based AI
+58,Graph Neural Networks,Analyzing networked data structures
+59,Edge AI and IoT,Deploying models on small devices
+60,Quantum Computing 101,Qubits and quantum algorithms
+61,Network Security Monitoring,Detecting intrusions and threats
+62,Digital Forensics,Investigating cyber crimes
+63,Malware Analysis,Reversing and understanding viruses
+64,Cloud Security (CCSP),Securing data in the cloud
+65,BGP Routing Deep Dive,Internet-scale routing protocols
+66,SD-WAN Architecture,Software-defined wide area networks
+67,Wireshark for Analysts,Packet capture and network analysis
+68,Ansible for Automation,Configuration management as code
+69,Terraform Infrastructure,Provisioning cloud resources
+70,Jenkins CI/CD,Automating the software build cycle
+71,Data Privacy Laws (GDPR),Understanding global data regulations
+72,MLOps with Kubeflow,Managing the machine learning lifecycle
+73,Data Storytelling,Communicating insights to stakeholders
+74,Bayesian Statistics,Probabilistic modeling and inference
+75,Optimization Algorithms,Solving complex mathematical problems
+76,Search Engine Optimization,Improving web visibility and ranking
+77,Technical Writing Skills,Documenting software and processes
+78,Public Speaking for Tech,Presenting at conferences and meetings
+79,IELTS Academic Prep,Preparing for high-score English testing
+80,Career Coaching for Devs,Resume building and interview prep
+81,PHP for Legacy Systems,Maintaining classic web applications
+82,Swift for iOS,Native Apple application development
+83,Kotlin for Android,Modern mobile development standards
+84,GraphQL Fundamentals,Efficient data fetching for APIs
+85,Redis Caching,High-speed in-memory data storage
+86,Elasticsearch Mastery,Building powerful search engines
+87,Kafka for Streaming,Handling real-time data feeds
+88,Microservices Design,Breaking down monolithic apps
+89,API Gateway Management,Routing and securing API traffic
+90,Serverless with AWS Lambda,Event-driven code without servers
+91,Business Process Mining,Analyzing workflows from logs
+92,Customer Analytics,Understanding user behavior and churn
+93,Financial Modeling in Python,Analyzing stocks and portfolios
+94,Healthcare Data Science,AI applications in medicine
+95,Geospatial Analysis,Mapping data with GIS and Python
+96,Ethics in AI,Bias and fairness in algorithms
+97,Low-Code Development,Building apps with minimal syntax
+98,Robotic Process Automation,Automating repetitive desktop tasks
+99,Virtual Reality (Unity),Building immersive 3D environments
+100,Augmented Reality (ARCore),Overlaying digital info on the real world

@@ -60,3 +60,9 @@ Using Istella LETOR dataset.
 
 - rank-bm25 (for keyword-based retrieval)
 - sentence-transformers (for semantic search)
+
+## 📄 Document Retrieval
+
+- Integrated CSV-based dataset for retrieval
+- Combined title + description for text representation
+- Enabled scalable document search pipeline
