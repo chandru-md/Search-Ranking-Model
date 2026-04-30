@@ -66,3 +66,15 @@ Using Istella LETOR dataset.
 - Integrated CSV-based dataset for retrieval
 - Combined title + description for text representation
 - Enabled scalable document search pipeline
+
+## 🔄 End-to-End Pipeline
+
+- Built full search system:
+  - Query input
+  - Hybrid retrieval (BM25 + semantic)
+  - Feature engineering
+  - ML-based ranking
+- Returns final ranked results dynamically
+
+- Updated relevance labeling to use graded scoring instead of binary labels
+- Improved ranking signal for Learning-to-Rank model
