@@ -78,3 +78,14 @@ Using Istella LETOR dataset.
 
 - Updated relevance labeling to use graded scoring instead of binary labels
 - Improved ranking signal for Learning-to-Rank model
+
+- Fixed data alignment issue between features and labels
+- Added validation checks to ensure consistency
+
+- Expanded feature set to improve model learning
+- Enhanced query diversity and relevance scoring
+- Improved ranking model training effectiveness
+
+- Expanded feature set to include lexical and statistical signals
+- Improved label distribution for better ranking gradients
+- Tuned LightGBM parameters for effective learning
