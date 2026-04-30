@@ -23,8 +23,8 @@ params = {
     "ndcg_eval_at": [10],
     "learning_rate": 0.05,
     "num_leaves": 31,
-    "min_data_in_leaf": 5,
-    "max_depth": -1
+    "min_data_in_leaf": 2,
+    "min_gain_to_split": 0.0
 }
 
 # Train model

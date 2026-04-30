@@ -26,6 +26,8 @@ def build_features(query, documents):
             1 if query_lower in doc_lower else 0,              # exact match
             len(set(query_lower.split()) & set(doc_lower.split())),  # word overlap
             sum([doc_lower.count(w) for w in query_lower.split()]),  # term frequency
+            len(set(doc_lower.split())),                       # unique words
+            len(doc),                                          # char length
         ])
 
     return np.array(features)

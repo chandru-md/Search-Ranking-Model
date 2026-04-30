@@ -42,9 +42,21 @@ def generate_data():
             overlap = len(set(query_lower.split()) & set(doc_lower.split()))
             score += overlap
 
-            score += doc_lower.count(query_lower)
+            score += sum([doc_lower.count(w) for w in query_lower.split()])
 
-            relevance.append(min(score, 4))
+            # normalize
+            if score >= 4:
+                score = 4
+            elif score == 3:
+                score = 3
+            elif score == 2:
+                score = 2
+            elif score == 1:
+                score = 1
+            else:
+                score = 0
+
+            relevance.append(score)
 
         X.extend(features)
         y.extend(relevance)
