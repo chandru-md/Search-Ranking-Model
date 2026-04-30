@@ -20,11 +20,12 @@ def build_features(query, documents):
         query_lower = query.lower()
 
         features.append([
-            similarity_scores[i],                    # semantic similarity
-            len(doc.split()),                        # doc length
-            doc_lower.count(query_lower),           # keyword match count
-            1 if query_lower in doc_lower else 0,   # exact match
+            similarity_scores[i],                              # semantic similarity
+            len(doc.split()),                                  # doc length
+            doc_lower.count(query_lower),                      # keyword frequency
+            1 if query_lower in doc_lower else 0,              # exact match
             len(set(query_lower.split()) & set(doc_lower.split())),  # word overlap
+            sum([doc_lower.count(w) for w in query_lower.split()]),  # term frequency
         ])
 
     return np.array(features)

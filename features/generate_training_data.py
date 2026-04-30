@@ -14,8 +14,10 @@ def generate_data():
     "artificial intelligence",
     "neural networks",
     "learn coding",
-    "statistics basics"
-]
+    "statistics basics",
+    "data analysis",
+    "AI course"
+    ]
 
     X, y, qid = [], [], []
     query_id = 0
@@ -28,18 +30,21 @@ def generate_data():
         # simulate relevance (simple logic)
         relevance = []
 
-    for doc in documents:
-        doc_lower = doc.lower()
-        query_lower = query.lower()
+        for doc in documents:
+            doc_lower = doc.lower()
+            query_lower = query.lower()
 
-        score = 0
+            score = 0
 
-        if query_lower in doc_lower:
-            score += 2
+            if query_lower in doc_lower:
+                score += 2
 
-        score += len(set(query_lower.split()) & set(doc_lower.split()))
+            overlap = len(set(query_lower.split()) & set(doc_lower.split()))
+            score += overlap
 
-        relevance.append(min(score, 4))
+            score += doc_lower.count(query_lower)
+
+            relevance.append(min(score, 4))
 
         X.extend(features)
         y.extend(relevance)
