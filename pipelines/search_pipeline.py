@@ -29,9 +29,20 @@ def search(query):
 
 
 # test
-if __name__ == "__main__":
-    results = search("learn machine learning")
+def display_results(query, results):
+    print("\n" + "="*50)
+    print(f"🔍 Query: {query}")
+    print("="*50)
 
-    print("\nFinal Ranked Results:")
-    for r in results:
-        print(r)
+    print("\nTop Results:\n")
+
+    for i, (doc, score) in enumerate(results, start=1):
+        print(f"{i}. {doc} (Score: {float(score):.2f})")
+
+    print("\n" + "="*50)
+if __name__ == "__main__":
+    query = input("Enter your search query: ")
+    results = search(query)
+
+    display_results(query, results)
+    
