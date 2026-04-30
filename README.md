@@ -114,3 +114,39 @@ Top Results:
 - Data Science Course Learn machine learning and AI
 - Scikit-learn Mastery Implementing machine learning algorithms
 - Deep Learning Guide Neural networks and DL concepts
+
+## 🔎 End-to-End Search System
+
+- Accepts user query input
+- Retrieves documents using:
+  - BM25 (keyword search)
+  - Semantic embeddings
+- Generates features dynamically
+- Ranks results using LightGBM model
+
+### Example Output
+
+Query: "machine learning"
+
+Top Results:
+
+- Data Science Course Learn machine learning and AI
+- Scikit-learn Mastery Implementing machine learning algorithms
+- Deep Learning Guide Neural networks and DL concepts
+
+## 🖥️ Clean Output
+
+- Implemented formatted output for better readability
+- Displays ranked results with scores and query context
+- Supports interactive query input
+
+## 🌐 Web App (Streamlit)
+
+- Built interactive UI using Streamlit
+- Allows real-time query input
+- Displays ranked results with scores
+- Simulates real-world search experience
+
+### Run App
+
+streamlit run app.py
