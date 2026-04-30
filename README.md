@@ -89,3 +89,28 @@ Using Istella LETOR dataset.
 - Expanded feature set to include lexical and statistical signals
 - Improved label distribution for better ranking gradients
 - Tuned LightGBM parameters for effective learning
+
+## ✅ Model Training
+
+- Successfully trained LightGBM ranking model
+- Feature set expanded to 8 features
+- Model now learns meaningful ranking patterns
+
+## 🔎 End-to-End Search System
+
+- Accepts user query input
+- Retrieves documents using:
+  - BM25 (keyword search)
+  - Semantic embeddings
+- Generates features dynamically
+- Ranks results using LightGBM model
+
+### Example Output
+
+Query: "machine learning"
+
+Top Results:
+
+- Data Science Course Learn machine learning and AI
+- Scikit-learn Mastery Implementing machine learning algorithms
+- Deep Learning Guide Neural networks and DL concepts
